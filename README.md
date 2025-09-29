@@ -77,4 +77,4 @@ The Frontend Client will be accessible at http://localhost:3000 (or another avai
 Note: The frontend is configured to automatically proxy all /api requests to the backend server during development, eliminating CORS issues locally.
 
 ✅ Health Check Endpoint
-You can verify the status of the server and database connection by making a GET request to the /api/status endpoint. This route returns the current running status of the Express server and the MongoDB connection state.
+You can verify the status of the server and database connection by making a GET request to the /api/status endpoint. This route returns the current running status of the Express server and the MongoDB connection state. THanks
