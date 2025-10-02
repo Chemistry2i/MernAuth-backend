@@ -1,0 +1,35 @@
+{
+  "name": "mernauth-backend",
+  "version": "1.0.0",
+  "description": "⚛️ MERN Stack Application Boilerplate\r This repository provides a complete, foundational structure for a MERN (MongoDB, Express, React, Node.js) Stack application. It enforces a clean separation between the backend API and the React client, ensuring rapid development and production readiness.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suryaprakash0010/MernAuth-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/suryaprakash0010/MernAuth-backend/issues"
+  },
+  "homepage": "https://github.com/suryaprakash0010/MernAuth-backend#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.10"
+  }
+}
